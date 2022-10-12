@@ -1,10 +1,10 @@
 #include<stdio.h>
 
 int main(){
-    char c = '\0';
+    char c = getchar();
     while (c != EOF) {
-        c = getchar();
         putchar(c);
+        c = getchar();
     }
     return 0;
 }
